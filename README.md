@@ -17,10 +17,6 @@ Please follow this readme instructions to set up the project and database
 * Run Server, go to server directory [cd server] run [npm start]
 * Run Client, go to client directory [cd client] run [npm start]
   
-### How do I get set up? ###
-
-* LiveDemo Video:  https://www.loom.com/share/d96f05c4468c4235a760788822cc2cd1
- 
 ### Future Improvements? ###
 
 * We are using separate routes for all the entities, like payments
