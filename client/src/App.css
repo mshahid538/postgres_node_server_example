@@ -1,0 +1,21 @@
+.App {
+  background-color: hsl(220, 13%, 18%); 
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.Payment_Gateway { 
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(1fr, 5);
+  min-height: 300px;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255); 
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  background-color:azure; 
+}
+  

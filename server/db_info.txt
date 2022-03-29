@@ -1,0 +1,23 @@
+//////////////////////// payments Table ////////////////////
+ 
+
+ 
+// table schema script
+CREATE TABLE IF NOT EXISTS public.payments
+(
+    ccn text COLLATE pg_catalog."default",
+    ccv text COLLATE pg_catalog."default",
+    name text COLLATE pg_catalog."default",
+    expiry text COLLATE pg_catalog."default",
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 )
+)
+
+
+
+// sample object, to send in postman
+{ 
+  "ccn": "1231231231231231",
+  "ccv": "123",
+  "name": "Shahjahan Khokhar",
+  "expiry": "29 march 2022"
+}
